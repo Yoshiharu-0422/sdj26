@@ -128,15 +128,22 @@ class MyHomePage extends StatelessWidget {
                   ),
 
                   ElevatedButton(
+                    style: ElevatedButton.styleFrom(
+                      minimumSize: const Size(100, 80), // 幅300、高さ80
+                    ),
                     onPressed: () {
                       Navigator.push(
-                        context,
-                        MaterialPageRoute(
+                        context,MaterialPageRoute(
                           builder: (context) => page,
                         ),
                       );
                     },
-                    child: const Text('おして'),
+                    child: const Text(
+                      '詳細',
+                      style: TextStyle(
+                        fontSize: 15,
+                      ),
+                    ),
                   ),
                 ],
               ),
