@@ -1,18 +1,18 @@
 import 'package:flutter/material.dart';
 
-class OsjPage extends StatelessWidget {
-  const OsjPage({super.key});
+class AmmPage extends StatelessWidget {
+  const AmmPage({super.key});
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
         title: const Center(
-          child: Text('大阪城'),
+          child: Text('アメリカ村'),
         ),
       ),
       body: const Center(
-        child: Text('大阪城のページ'),
+        child: Text('Amm'),
       ),
     );
   }
